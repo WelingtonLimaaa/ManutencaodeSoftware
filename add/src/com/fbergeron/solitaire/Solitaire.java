@@ -423,10 +423,7 @@ public class Solitaire extends Frame
         legalGs = gs.legalMoves( false );
     }
 
-    /**
-     * @return <CODE>true</CODE>, if the game is won.
-     * <CODE>false</CODE> otherwise.
-     */
+
     private boolean isGameWon() {
         boolean gameWon = deck.isEmpty() && revealedCards.isEmpty();
         if( gameWon )
